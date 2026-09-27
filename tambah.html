@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KeiTrack - Tambah</title>
+</head>
+<body>
+    <header>
+        <h1>Tambah Uang Keluar</h1>
+    </header>
+
+    <nav>
+        <a href="detail.html">Cek Halaman Detail</a>
+    </nav>
+
+    <main>
+        <p>Isi form di bawah ini untuk mencatat pengeluaran:</p>
+        
+        <form>
+            <label for="tanggal">Tanggal:</label>
+            <input type="date" id="tanggal">
+            <br><br>
+            
+            <label for="kategori">Kategori:</label>
+            <select id="kategori">
+                <option>Makan</option>
+                <option>Transport</option>
+            </select>
+            <br><br>
+
+            <label for="jumlah">Jumlah Rp:</label>
+            <input type="number" id="jumlah">
+            <br><br>
+
+            <label for="catatan">Catatan:</label>
+            <br>
+            <textarea id="catatan" rows="3"></textarea>
+            <br><br>
+
+            <button type="submit">Simpan</button>
+        </form>
+    </main>
+</body>
+</html>
